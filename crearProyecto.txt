@@ -1,0 +1,1 @@
+pyinstaller --icon=MesaIcon.ico --hidden-import Scikit-learn --hidden-import sklearn --hidden-import joblib --hidden-import scipy --hidden-import tk --hidden-import PyInstaller --hidden-import sklearn.neural_network myAppNN.py
